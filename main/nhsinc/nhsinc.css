@@ -1,0 +1,25 @@
+h2 {
+  text-decoration: underline;
+}
+
+li {
+  margin: 5px;
+  padding: 4px;
+}
+
+#gal {
+  margin: 5px;
+  padding: 5px;
+  width: 90%;
+  height: 250px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+
+  #gal {
+    margin: 5px;
+    width: 350px;
+    height: 250px;
+  }
+}

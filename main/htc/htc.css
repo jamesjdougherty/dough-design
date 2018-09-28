@@ -1,0 +1,38 @@
+h2 {
+  text-decoration: underline;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+li {
+  margin: 5px;
+  padding: 4px;
+  list-style: inside;
+}
+
+#gal {
+  margin: 5px;
+  padding: 5px;
+  width: 90%;
+  height: 250px;
+  text-align: center;
+}
+
+.htc-banner {
+  padding-top: 40px;
+}
+
+.process {
+  margin: 30px auto;
+}
+
+@media (min-width: 768px) {
+
+  #gal {
+    margin: 5px;
+    width: 350px;
+    height: 250px;
+  }
+}
