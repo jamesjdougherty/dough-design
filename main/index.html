@@ -1,126 +1,514 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <title>DOUGHDesign</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" sizes="32x32" href="images/starLogo.png">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="blog/blog.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  </head>
-  <body>
-    <div class="container-fluid"> <!--start of nav-container-->
-      <header class="d-flex justify-content-between flex-wrap">
-          <div class="dd-logo">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<body>
+<div class="container-fluid"> <!--start of nav-container-->
+    <header class="d-flex justify-content-between flex-wrap">
+        <div class="dd-logo">
             <a href="index.html"><img src="images/starLogo.png" alt="DOUGHDesign Logo"></a>
-            <h1 class="comp-title">DOUGHDesign</h1>
-          </div>
-          <div class="topnav">
-            <a href="#" class="active"></a>
-            <div id="myLinks">
-              <a href="https://drive.google.com/file/d/1nVld9B9m00mgDu_DuBZORW4Oun5LZOnH/view?usp=sharing" target="_blank" alt="James Dougherty's Resume">Resume</a>
-              <a href="blog/blog.html" alt="DOUGHDesign Blog">Blog</a>
-              <a href="about/about.html" alt="DOUGHDesign's Story">About</a>
-              <a href="mailto: jjdougherty89@gmail.com" alt="The creator's email address">Contact</a>
-            </div>
-            <a href="javascript:void(0);" class="icon" onclick="myMenu()">
-              <i class="fa fa-bars"></i>
-            </a>
-          </div>
-        </header>
-    </div> <!--end of nav-container-->
-    <div class="container"> <!--start of body-container-->
-      <section class="row profile-info profile-section">
-        <div class="col profile-info" style="padding-top: 2em;">
-          <a href="http://twitter.com/jamesjdougherty/" target="_blank"><img src="images/jjdProPic.jpg" alt="Photograph of James"></a>
-          <h4>James Dougherty</h4>
-          <p class="text-muted">Pittsburgh, PA</p>
-          <p><a class="btn btn-primary" href="mailto: jjdougherty89@gmail.com" alt="Send James a message">Send Message</a></p>
+            <h1 class="comp-title">DOUGHBlog</h1>
         </div>
-        <div class="col-md-7">
-          <p>Welcome to DOUGHDesign! Check out some of my work below, and feel free to send me a note if you'd be interested in collaborating
-          on a future design. Cheers!</p>
-          <p class="italic">"Design is the rendering of intent. What we intentionally design can delight someone. It can also frustrate them. We can
-            change our rendering, with the intention to create more delight & less frustration. When we do that, we’re designing the
-            user’s experience." -- Jared Spool</p>
-        </div>  
+    </header>
+</div> <!--end of nav-container-->
+<div class="container"> <!--start of body-container-->
+    <h2>This Just In:</h2>
+    <div class="journal">
+        <h5>Intern to Engineer - September 16, 2018</h5>
+        <aside class="entry">
+            <input type="checkbox" class="read-more-state" id="post-13"/>
+            <p class="read-more-wrap">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+                enim.<span class="read-more-target">
+                Placeholder.</span>
+            </p>
+            <label for="post-13" class="read-more-trigger"></label>
+        </aside>
+        <h5>Schedule: Makers VS Managers - April 7, 2018</h5>
+        <aside class="entry">
+            <input type="checkbox" class="read-more-state" id="post-12"/>
+            <p class="read-more-wrap">
+                The art of a person's schedule. The well known calendar invite. Some (let's refer to this group as
+                "Managers") live by this tool
+                and cannot function properly without checking it every morning to plan the upcoming day. However, for
+                others (let's refer to these
+                people as "Makers") see this tool as more of a creative killer, a buzzkill, a wet blanket (I think you
+                get my point) that just becomes
+                a part of life that you learn to live with because society deems it "normal".<span
+                    class="read-more-target">
+                Growing up in a very "Always show up 5 minutes early" type environment, it was definitely instilled in me at a very young age that
+                it is rude to show up late for an appointment/meeting/commitment. Humans as a whole, respect the value of time and do our best to manage it,
+                control it, and try to optimize it throughout our lives. The issue that I have run into with this type of mindset is that creation/creativity
+                does not live on a timed schedule. Now, of course there are ways to set aside time for creative thoughts and process; however, when you get "real"
+                with yourself, sometimes creativity just strikes during your morning shower, or in the middle of a meeting, or maybe right before you fall asleep. My inital
+                instinct when this little beam of brilliance hits me is to write it down, sketch it up, or code that motha until the cows come home. Unfortunately,
+                herein lies the issue ... I cannot just get up and leave a meeting to go indulge on a little creative snack. I find if my entire day is following a
+                "Managers" schedule that very little creative work gets done that day. Usually what occurs is a lot of planning, and discussing, and perhaps some problem
+                generation gets done, but usually very little out of the box thinking occurs. On the flip side, if I block out maybe the first four hours of my morning,
+                just to hold from being scooped up by the meeting troll ... then more times than not, something cool and new is generated or brought into existence to play a role (maybe)
+                in this wonderful world called Design.</span>
+            </p>
+            <label for="post-12" class="read-more-trigger"></label>
+        </aside>
+        <h5>Marasti Wedding (script with notes) - December 8, 2017</h5>
+        <aside class="entry">
+            <input type="checkbox" class="read-more-state" id="post-11"/>
+            <p class="read-more-wrap">
+                Giving in Marriage: Who presents this beautiful woman to be married? Gathering Words: On behalf of
+                Janel and Rob I welcome you all here today and thank you for bearing witness to such a sacred moment in
+                their lives. {Pause}
+                Janel and Rob have chosen each and every one of us to be here with them today to witness their Wedding
+                Vows as they join
+                together as husband and wife.<span class="read-more-target">
+                  Marriage is more than just the union of two people; it is the gathering of a community as evidence
+                  by your presence here. As witnesses to this union you are charged with a very special responsibility, to support and encourage
+                  this couple throughout their years to come. And so, there will be a point in this ceremony where you too {look at crowd}
+                  will be asked to join in and share your declaration of support for this couple. Now, each of us knows that a marriage is
+                  not created by law or a ceremony; but rather it occurs in the hearts of two people. It grows out of loving, caring, and sharing
+                  ourselves with another. So, in witnessing this ceremony today, we are observing only an outward sign of an inward union that
+                  already exists between Janel and Rob. Today, they have come before us to publicly affirm their love; to promise to nurture
+                  themselves, each other, and this union; and to acknowledge its foundation in their lives. They do so knowing that marriage
+                  is at once the most tender, yet challenging, of all relations in life. Opening Blessing Now let us pray, Dear God, We ask
+                  for your blessings upon this man and woman, as we celebrate this momentous occasion in their lives. Grant them happiness
+                  and contentment as they establish their new home, create a new family and explore the depths of their love for one another.
+                  Bless their families and friends and the relationships, which have supported, strengthened and sustained them throughout
+                  their lives. Bless their home as a place of love and of peace. And allow their marriage to bring them all the excitements
+                  a marriage should bring. Amen. Moment of Silence At this time we’d like to take a moment of silence to remember those who
+                  are no longer here with us. These individuals helped make Janel and Rob into the people they are today, and we acknowledge
+                  their presence here with us in spirit. Let us now take a moment of silence to honor and hold in our hearts all those who
+                  have passed. ( Moment of Silence here) {Count to 10} Please cherish the memories of these friends and family and all others
+                  who live on in our hearts. Amen. Honor the Parents Janel and Rob are extremely blessed to have such selfless parents who
+                  love them unconditionally. Anna and Andy, David and Vanessa, and Bob and Diane - your love, support and wisdom has developed
+                  two amazing young adults, who have brought together so many great people today to witness the start of something special.
+                  You should be proud of what you have all done to create such a beautiful moment, knowing that Janel and Rob are extremely
+                  grateful for all that you do. It’s on their behalf that I honor you and congratulate you in this moment. Thank you. Charge
+                  to Couple Janel and Rob, the commitment of marriage is not meant to be entered into lightly, but with certainty and mutual
+                  respect. Your love for one another and your willingness to accept each other’s strengths and weaknesses will help cement
+                  the foundation for a strong and lasting marriage. Learn to respect your individual outlooks. Share your thoughts, experiences
+                  and dreams with one another. Cherish the intimacy and understanding that comes with the passage of time. And certainly in
+                  the nearly three and a half years you have been together you have come to love a lot of things about one another, which is
+                  why I asked you to privately share with me a list of 5 things you love about your partner, {look at crowd} what they didn’t
+                  know is that I would then be sharing this information with all of you! Rob’s favorite things he loves about Janel: Rob loves
+                  … -How patient Janel is in all walks of life -He loves Her intelligence and focus -He loves her sense of humor and joy -Rob
+                  loves how beautiful Janel is inside and out -And finally, Rob loves Janel’s loving heart and caring nature Janel’s favorite
+                  things about Rob: Janel loves that ... -Rob instills confidence in her and always sees the best in life -She loves that he
+                  is strong mentally and physically and that he never falters, and never lets anything break him -Janel loves that she never
+                  gets bored or has a bad time when she is with Rob -She loves that you can make her laugh until she cries -And finally Janel
+                  loves that you and her will always have one another to grow old with together. Remember that in life the little things ARE
+                  the big things. Remember that love is about saying “I love you” not only when you want to say it, but when your partner needs
+                  to hear it. It’s about not going to bed angry and never taking the other for granted. It’s continuing the courtship through
+                  years to come. It’s sharing the same values and standing together to face the world. It’s about doing things for each other,
+                  not in the attitude of duty or sacrifice, but in the spirit of love & giving. Appreciate each other and show your gratitude
+                  often and in thoughtful ways. Remember that marriage isn’t just about finding the right partner; it’s about being the right
+                  partner. Janel and Rob today there is a vast unknown future before you. That future, with its joys and sorrows, is hidden
+                  from your eyes. But it is a great tribute to your faith in each other that you are willing to face these uncertainties together.
+                  May the love you share grow deeper and more secure with every passing year. Reading by I would now like to invite Shane Mahoney
+                  up to pray over this couple on this very special day. Vows And now it is time to share in the vows of marriage: Rob, please
+                  answer me this: Do you Robert, take thee Janel, to be your lawfully wedded wife? From this day forward, to have and to hold,
+                  for better, for worse, for richer and for poorer, in sickness and in health, to love and to cherish, all the days of your
+                  life? I DO. Janel, please answer me this: Do you Janel, take thee Robert, to be your lawfully wedded husband? From this day
+                  forward, to have and to hold, for better, for worse, for richer and for poorer, in sickness and in health, to love and to
+                  cherish, all the days of your life? I DO. Rings (provided by James Marasti) May we have the rings please? From the earliest
+                  times, the circle has been a symbol of completeness, a sign of abiding love. An unbroken circle that represents a commitment
+                  of love that is never ending. These rings symbolize the ties that bind you together as husband and wife. As often as either
+                  of you looks at these rings, I hope that you will be reminded of the enduring covenant to love each other which you have
+                  made today. Rob, as you place the ring on Janel’s finger please repeat after me: I Robert || give to you Janel || this ring
+                  || as a sign of my vow || to love, honor and cherish you || forever and ever. Janel, as you place the ring on Robert’s finger
+                  please repeat after me: I Janel || give to you Robert || this ring || as a sign of my vow || to love, honor and cherish you
+                  || forever and ever. Declaration of Support from Guests As I told you earlier, you have a special responsibility as witnesses
+                  to this gathering. Rob and Janel chose to have an intimate gathering of family and friends for this wonderful occasion so
+                  they could honor each of you and let you know how deeply in their hearts they care for you and how deeply honored they are
+                  to have family and friends who love them the way that you do. They wanted to feel the presence and love of family and friends
+                  as they make this lifelong commitment to one another. So, I now invite each of you as members of this gathering to verbally
+                  share your support for Janel and Rob by answering “we will” to the following question: Will each of you, do everything you
+                  can to love, support, and care for these two people in their marriage? Guests: We will. I encourage you to always choose
+                  love in your thoughts about and interactions with Janel and Rob. Stand beside them, not between them. Come to them with hearts
+                  of peace, not judgment. Honor their marriage. Show them your kindness, your support, and your loving hearts. On their behalf,
+                  I thank you. Call to Presence Now, before I pronounce you two as a married couple, I have just one more thing I want you
+                  to do. Your wedding day is one that seems to fly. It’s a day filled with emotion, rings, food, and friends. Many people remember
+                  how fleeting their own wedding day was. So I want you to take a few seconds to look into each other’s eyes. {pause for effect}
+                  Think about the happiness that you’re feeling in this place, in this moment. Really let that feeling register in your heart
+                  and your mind. Now, I want you to think about your life together in twenty years. Where are you? What are you doing? We all
+                  know that your visions of the future are not identical, but always complimentary, the great John Lennon once said, “a dream
+                  you dream alone is only a dream, but a dream you dream together, now THAT is reality.” I pray for you both, that new reality
+                  starts now. Pronouncement: Janel and Rob, having witnessed your vows of love and faith to one another, by the power vested
+                  in me, it is my joy and personal privilege to pronounce you husband and wife, and you may now kiss the bride. Ladies and
+                  Gentleman it is my pleasure to introduce for the first time anywhere, Mr. and Mrs. Robert and Janel Marasti! Please show
+                  them some love and shower them with pedals.</span>
+            </p>
+            <label for="post-11" class="read-more-trigger"></label>
+        </aside>
+        <h5>Land Beneath the Ice - June 26, 2017</h5>
+        <aside class="entry">
+            <input type="checkbox" class="read-more-state" id="post-10"/>
+            <p class="read-more-wrap">
+                Greetings from Whittier, AK! This is James currently on the keys, about to dive into some incredible
+                memories from yesterday’s
+                unbelievable trip to the “Little Fishing Town Beneath the Ice”.<span class="read-more-target">
+                  Maegan and I set off for this adventure at 4:30a in the morning
+                  (I would usually say in the early dark parts of the morning, but it is currently sunny basically all day, so actually we
+                  had our shades on and sunblock ready to go). Our 3 hour drive was nothing less than incredible as we dipped, dove, climbed
+                  and crawled around mountains and valleys through the back roads of this beautiful place called the “Last Frontier”. Arriving
+                  a bit early for our 26 Glacier Cruise, Maegan and I decided to get lost in the town a bit and figure out where we would be
+                  staying that night. Immediately after walking down the road a few blocks, you could tell that we were no longer in Kansas
+                  (so to speak). This was a very old fishing town, that had seen the hardship of several cold/brutal winters over the years.
+                  I instantly fell in love with the multitude of creative ideas that started rushing through my mind. How gnarly it would
+                  be to spend a month or two here, just writing and drinking … coffee (wink) as life goes on back in the lower 48. Maegan could
+                  perform therapy on all the sailors and fisherman, and I could write and fish … what more do you need! After a few hours,
+                  we had located a hostel for us to crash in that night, filled our bellies with some delicious reindeer breakfast sandwiches,
+                  and were ready for the cruise of a lifetime. Captain Speedy, tore out of the harbor on a mission. We were going to be on
+                  a tight deadline to literally see 26 glaciers in less than 5 hours. I will give him some props though, we hit them all and
+                  saw some unbelievable wildlife along the way. Maegan was able to capture some unreal snaps of a beautiful humpback whale,
+                  sea lion, otters, tons of glaciers, a few waterfalls, and her “Ballin Little Bro” diving into the ocean (blink). Capt Speedster
+                  brought us back to the harbor right on time like a pro. No words (although I always try) could really do justice to what
+                  we just experienced. The Dougherty Duo will be setting off for Anchorage today as we putz around Whitter for a few more hours
+                  looking for new adventures. You never know what He may bring as I sit gazing out my hostel window overlooking the Pacific
+                  Ocean, a magnificent little hummingbird has been buzzing around me as a blessing from my late great mother no doubt. Life
+                  is something special, my friends. Nothing more to do, but enjoy the ride.</span>
+            </p>
+            <label for="post-10" class="read-more-trigger"></label>
+        </aside>
+        <h5>Consumer VS Producer - June 17, 2017</h5>
+        <aside class="entry">
+            <input type="checkbox" class="read-more-state" id="post-9"/>
+            <p class="read-more-wrap">
+                Consumers vs producers (when producing surpasses consuming, life seems lighter; however, when consuming
+                overtakes producing
+                life seems like drowning in a spend sink hole<span class="read-more-target">
+                ... I need a vacation.</span>
+            </p>
+            <label for="post-9" class="read-more-trigger"></label>
+        </aside>
+        <h5>Honduras Day 6 - October 22, 2015</h5>
+        <aside class="entry">
+            <input type="checkbox" class="read-more-state" id="post-8"/>
+            <p class="read-more-wrap">
+                Day 6: Until Next Time. The end has finally arrived, unfortunately. Day 6 was by far the hardest
+                emotionally just knowing
+                that we would be traveling to the airport the next morning, rather than back on the bus to continue our
+                service journey.
+                It was such a great day though as a whole from beginning to end.<span class="read-more-target">
+                Our teams were finally in the same areas working together as one unit. Medical saw over 600 patients this week which is
+                really incredible for a team smaller than 10. This morning
+                we finished the mission at a girls orphanage to make sure they all had physicals from the medical staff and had prayer
+                for anything going on in their lives. I had the honor of praying over eight girls with the Medical Minister. His words
+                and passion for the Lord is unlike any other. I can see his light shining through as soon as he walks in a door. I pray
+                that he will continue to serve and pray for others even after returning to Pittsburgh. Later in the morning we decided
+                to play kickball, basketball, futbol, and dance (they loved the cupid shuffle). There was no lesson or plan we just wanted
+                to laugh and play like kids are supposed to do at that age. There was no fighting, no arguing, just good old fashion fun.
+                Reflecting back on these past 6 days kept reminding me that none of this would have been possible without Head Honcho and
+                Seis. Of course someone else could have led this trip and I’m sure it would have went just fine, but this was not a “fine”
+                trip. This was a trip for the ages that has sparked a fire in the Crochet Queen and me to continue on these acts of services
+                for many years to come. Head Honcho and Seis did an unbelievable job leading our Missions team and I would like to thank
+                them publically for all that God has done in their lives and pray that he will continue to work wonders for these two.
+                Our night ended with a farewell dinner for our team, our coordinators, the security, our amazing translators, and our awesome
+                driver/guide. Everyone looked great all cleaned up, ready for a good meal and even better conversation. I wanted the night
+                to continue for hours, since I knew the time for goodbyes had arrived. I have never been a fan of goodbyes, I try to avoid
+                them by sneaking out of parties early, sending texts rather than meeting in person, or just ignoring them altogether; however,
+                these were inevitable. I will pray for out extended team, and hope to see many of them again some day. A verse from one
+                of the songs we sang during our nighttime devotionals is, “Your love is deeper than my view of grace, higher than this
+                worldly place, longer than this road I’ve traveled, wider than the gap you’ve filled.” We never know what God has in store
+                for us next, whether it be a missions trip, a new calling, an old friendship coming back to life, we cannot predict the
+                future. All we can do in this life is to love on those who stroll into our road traveled, and have faith that good will
+                always overcome evil.</span>
+            </p>
+            <label for="post-8" class="read-more-trigger"></label>
+        </aside>
+        <h5>Honduras Day 5 - October 21, 2015</h5>
+        <aside class="entry">
+            <input type="checkbox" class="read-more-state" id="post-7"/>
+            <p class="read-more-wrap">
+                Day 5: A Day I Will Never Forget. Today was the Missions Team’s last day at the Family Hope Center and
+                the Sinai School.
+                Our morning kicked off with an extremely powerful prayer session with all the mothers broken into
+                smaller groups to share
+                with our team what was on their hearts.<span class="read-more-target">
+                  You could literally feel the positivity working around our circles within the Spanish and English prayers.
+                  The Holy Spirit was undeniable this morning! It just baffles me how strong these women are who are single parents, raising their young
+                  ones, with very low opportunity for employment; however, the majority of their prayers were for others. You never heard
+                  them ask for more money or a nicer home, instead they asked for blessings over their children and parents, better opportunities
+                  for their sisters and brothers, and prayers for the government to help steer this country back in the right direction.
+                  Our team decided to end our time with them learning how to make headbands out of cut up shirts. The women mastered this
+                  technique instantly and began using the materials to improvise our lesson plan. They began braiding beautiful patterns
+                  making headbands, bracelets, and belts to give as gifts or wear around town. We ended our time together singing a song
+                  in Spanish led by one woman who in my opinion would make it onto The Voice hands down. Although we could not understand
+                  the lyrics, we could feel the meaning and joy from the ladies clapping and smiling. I woke up knowing that we would be
+                  saying goodbye to the little ones later in the day, but was not expecting how attached I had gotten to a few that reminded
+                  me of myself at a young age. When you Google San Pedro Sula, your initial thoughts are the crime, gangs, poverty, corruption,
+                  but these children are truly no different than you and I at their core. They have the basic human needs, they love sports,
+                  puzzles, coloring, singing, dancing, jump roping, making arts and crafts, and piggy back rides (at one point I think the
+                  kids thought that Head Honcho and I were their personal horses, yelling VAMOS as we ran by one another tired, but happy
+                  to be exactly where we were). The afternoon went extremely smooth even with the downpour causing us to change up the game
+                  plan. Sadly, our time with these kids had come to an end. After several high-fives and hugs, our new amigos were out the
+                  door and back to life as they knew it. I pray that our time together will be remembered when tough roads present themselves
+                  to these young souls. I pray that they will always remember that Jesus es Super Fuerte, and that He will never leave their
+                  sides in times of need. I will never forget this community for the rest of my days. I will pray for them always.</span>
+            </p>
+            <label for="post-7" class="read-more-trigger"></label>
+        </aside>
+        <h5>Honduras Day 4 - October 20, 2015</h5>
+        <aside class="entry">
+            <input type="checkbox" class="read-more-state" id="post-6"/>
+            <p class="read-more-wrap">
+                Day 4: Today the Son was shining bright! This morning we sent our medical team to the clinic, which I
+                will discuss in much
+                further detail later. However, now we were off to the family hope center to recap day two with the
+                Crochet Queen and the
+                mother’s of Las Brisas. Today’s topic was more private, thus, the men were not invited.<span
+                    class="read-more-target">
+                Instead we enjoyed legos in a side
+                room with the women’s children and I will tap out on this blog, if you will, while CQ updates you on the morning with the
+                women. Hola!!! Today was another perfect day. The women were so open and so perceptive to the discussion. I will respect
+                their confidentiality and keep the meat of our discussion private. I had special help from Seis, the Traveling Heart, and
+                Wise Scholar as well as a team of translators. One thing I found striking was the similarities between the culture in Honduras
+                and in the States. The topic was a very broad understanding of health, human growth and development, and ways to protect
+                ourselves. Common issues the women discussed, our ministry team agreed were similar issues we notice in our own interpersonal
+                circles. After the discussion, we moved on to arts and crafts! I was not born a Queen of Crocheting. My Grandmother spent
+                many years teaching me. Today, I got to give back and share this trade with 40 plus women. Nicole and Carol helped translate
+                what I was doing step by step and the women picked it up faster than anyone I had ever seen! I also got to educate my
+                own team members which was such an awesome bonding experience. Seis and Wise Scholar will be making scarves and blankets
+                for the holidays, take your orders now! The morning flew right before my eyes. I cannot wait to continue the lesson tomorrow.
+                The Traveling Heart also led a craft, one that we all got instant gratification from: awesome headbands made from tying
+                t-shirts together. Seriously, check them out, they’re sweet! She mastered these in less than 10 minutes. Tomorrow, we will
+                also spend time showing the women this trade. Headbands are a popular accessory in San Pedro Sula, as the weather is hot.
+                I’ve sweat in places I didn’t even know existed, TMI? So having a band to collect the sweat is very useful. Our hope is
+                the women can reproduce headbands on their own and make an income from selling them in their community. CQ out! Our ministry
+                team headed back to regroup at the clinic with the medical team to enjoy lunch together and hear about one another’s day,
+                I had the chance to catch up with Big Cheese and his team of talented medical professionals. To my surprise this day was
+                a bit different then the previous two. Our team did not see many walking well during their hours unfortunately. One adult
+                woman who weighed around 75 pounds was having a serious issue with having her body basically eat itself from trying to
+                breastfeed her new born child. The saddest part is that she is just trying to provide nutrients for her niño; however,
+                the effect is that it is actually damaging her physically. Another patient was a young man (younger than me) who had a
+                scar from his left shoulder, a crossed his throat, up his head from a machete battle. Apparently it is the norm for boys
+                to have a machete by the age of 12 or 13. If that alone does not make your jaw drop, the amount of machete fights that
+                occur in Honduras might make that jaw hit the floor. A patient that I actually got the chance to see at the clinic was
+                an elderly woman that had wounds all over her feet. Big Cheese later told me that her feet were basically destroying themselves
+                from the severe case of untreated diabetes. In the states this women would have been hospitalized for at least two weeks,
+                no questions asked. However, since Honduras is not fortunate enough to have these resources, her wounds were cleaned and
+                bandages and she was on her way after about 20 minutes. I ask all you readers out there to continue praying not only for
+                our incredible teams and the work that we are doing down here, but for all the patients and children that will not be leaving
+                to return to a country where there is an Urgent Care on every corner and a bathroom that has working plumbing.</span>
+            </p>
+            <label for="post-6" class="read-more-trigger"></label>
+        </aside>
+        <h5>Honduras Day 3 - October 19, 2015</h5>
+        <aside class="entry">
+            <input type="checkbox" class="read-more-state" id="post-5"/>
+            <p class="read-more-wrap">
+                Day 3: Jesus es Super Fuerte. “All I need is you Lord is you Lord. Lord all I need is You!” As I sit
+                listening to these lyrics
+                from Hillsong, reflecting on the last thirteen hours of day tres, I cannot stop thinking about how
+                blessed I am to have
+                been a part of this trip/this group. Our team is led by unbelievable, strong, wise, LOVING individuals
+                that when put together
+                in SPS move mountains to make a difference.<span class="read-more-target">
+                Our day began meeting with a large group of single mothers whose children have
+                been in our prayers for sometime now. The women met us at the Hope Center where you could tell as they walked in the door,
+                they did not know what to expect over the next three-hour session. To say these women have had a hard life would be like
+                saying that Pittsburgh only kind of likes the Steelers (understatements of the century). I had been praying about what
+                was about to occur next the majority of the previous night, as well as, the morning during our small group devotional.
+                My wife, let’s refer to her as The Crochet Queen in this blog, has a background in mental health counseling. Her goal during
+                today’s session was to not only educate these wonderful mothers about wellness and how we can practice a healthier lifestyle,
+                but to also listen to actual concerns and issues that these ladies were currently going through in their everyday lives.
+                Watching my wife in her element is something that every husband should have the privilege of doing numerous times throughout
+                a marriage. Women who were reluctant at first to open up, started sharing stresses in their lives about relationships,
+                worries, pains that caused them unwanted and really speaking honestly unneeded anxiety in their lives. Our ministry team
+                worked with these mothers to teach them coping mechanisms (meditation & stress ball creation) to help relieve the stress
+                in a healthy way, which can be preformed no matter where they are or what time of the day. Meditation seemed to be a huge
+                hit with not only the mothers, but also our ministry team. Who knew that something so easy as closing your eyes and picturing
+                a series of images could release so much tension. The stress balls were more of a Do It Youself tutorial, where our team
+                took balloons and filled them with flour to form a pretty legitimate stress reliever. However, never having actually practiced
+                this prior to the demonstration the students quickly became the teachers, showing us a thing or two about how to handle
+                flour without dumping the majority on the pavement. The session concluded with prayer requests and hands being layed on
+                those in need. The power of prayer never seizes to amaze me, even with the language barrier your heart is filled with such
+                a passion for these people in this community just trying to protect and give their children a life that is safe and fruitful.
+                The second part of our day was focused around Vacation Bible School or VBS. Children poured into the Clinic’s courtyard
+                bull rushing me like I was the last Power Chicken in all of SPS. Quickly before I knew it, I had one minion climbing on
+                my back, two bigger minions hanging from my arms, and a new pair of shoes that weighed about fifty pounds each. These kids
+                had the ability to put a smile on your face no matter what any of us had going on back in the states. One of our leaders,
+                let’s call her Seis, started playing music that caught all the kids attention immediately. The name of the song was Super
+                Fuerte, which in English translates to Super Strong. Children were jumping up and down, clapping their hands, playing air
+                guitar, and some even rushed the stage, probably to try and get Seis’s autograph. The Lord was truly working wonders yesterday
+                during VBS, our medical team said that you could feel the energy throughout the entire clinic. We finished the day off
+                by teaching the children a lesson about conviction. The kids then had the option to make arts and crafts, color, create
+                puzzles, play futbol in the courtyard, or build with legos. Out of those options the coloring room was the stations with
+                the most chaos. Who knew that Honduran children loved coloring books more than futbol?! Our drive back to the hotel was
+                very different then previous days. Our clothes were dirty, our body’s were exhausted, but our smiles and stories from the
+                day were all that we focused on.</span>
+            </p>
+            <label for="post-5" class="read-more-trigger"></label>
+        </aside>
+        <h5>Honduras Day 2 - October 18, 2015</h5>
+        <aside class="entry">
+            <input type="checkbox" class="read-more-state" id="post-4"/>
+            <p class="read-more-wrap">
+                Day 2: The Gifts That Keep On Giving. Greetings blog followers! Day 2 in SPS was a powerful day to say
+                the least. Our North
+                Way crew started our morning off picking up 7 incredible/essential translators to help with the language
+                barrier that we
+                face this week. Our bus of 20+ members made our way to a popular Honduran clinic where we dropped off
+                supplies for our
+                amazing medical team to prep for the 120 patients they were about to see. Our medical leader, Big
+                Cheese, said that even
+                on a busy day 120 is more than twice the amount of patients he would ever see in one day back in the
+                states with our size
+                medical group.<span class="read-more-target">
+                While the medical team was laying healing hands on those in need, the ministry team was off at Iglesia del
+                Nazareno sitting patiently in an empty church eagerly awaiting our first Honduran church service to begin. The sign directly
+                behind the stage read, “Hacer Discipulos Semejantes a Cristo en las Naciones”, which in English loosely translates to Go
+                therefore and make disciples of all nations. As I sat and thought about what making disciples really means to me as a Christian,
+                my thought process was broken by a whirlwind of little feet stampeding towards the big empty room where we all sat. Thinking
+                back on the moment now, the best way to describe it would be a blur of Honduran children rushing towards us with ear-to-ear
+                smiles. To call these kids shy could not be farther from the truth. After settling, we began passing the peace, as we would
+                say in America. However, in Honduras the peace is literally passed to everyone in the room. Almost like a small party that
+                happens pre-sermon. It was such a welcoming and wonderful feeling to have the majority of the church come and greet you
+                just for being a part of their community on such a special Sunday. Pastor Victor gave an incredible sermon that was translated
+                by our wonderful new friend, Carol. We learned about the human nature of always asking for things from God without always
+                obeying Him in how we live our lives. If we ask our Father for things that are set on our hearts, we need to be prepared
+                to follow in Christ’s footsteps as He has asked for all of His children. The service was completed by several worship songs
+                and then a very powerful praying session all done in Spanish. Although I really could not understand the majority of either,
+                I could feel the Spirit working throughout the entire room in one way or another. Our team was truly blessed to witness
+                such a beautiful event. As we made our way to the Buckner Center, many of us were not expecting what was about to occur
+                next. Our team began setting up shoes that had been donated to Buckner for this trip. About 50 shoes of various sizes and
+                colors were now organized to be distributed to all those in need. A row of chairs were lined up for our soon to be happy
+                customers. One by one a child entered with old dirty shoes, sat on the chair (little legs not long enough to touch the
+                ground), and immediately a smile appeared as a new pair of shoes were brought over. Our team took pride in taking off the
+                old pair, washing away the dirt with a fresh pair of socks, and fitting a brand new pair of sneakers onto a foot that
+                had new roads and paths just waiting to be discovered in their young little lives. Forty-six shoes were given away by the
+                end of the afternoon, and four were being switched out for a different size that will be given away tomorrow. I have bought
+                a lot of sneakers in my day; however, not a single pair had made me as happy as giving a pair to children in need today.
+                On our way back to the hotel, we needed to make a few pit stops to stock up on some additional supplies. As the majority
+                of the team waited in the bus, our driver and coffee connoisseur began giving us a bit of a history lesson on Honduras
+                to pass the time. One question led to another, and before we knew it somewhere between coffee being made from milk and
+                espresso beans dipped in cinnamon sugar, he opened up about being a single father raising a 16-year-old son and 14-year-old
+                daughter while working full-time to provide for his family. My heart felt for this strong Christian man who had been through
+                so much in his life, but still shined the light of Christ on all those around him. Please continue to keep this team and
+                all those we have encountered/will be encountering this week in your prayers. Each day continues to bring us closer to
+                our Lord and one another as we serve.</span>
+            </p>
+            <label for="post-4" class="read-more-trigger"></label>
+        </aside>
+        <h5>Honduras Day 1 (Travel Day) - October 17, 2015</h5>
+        <aside class="entry">
+            <input type="checkbox" class="read-more-state" id="post-3"/>
+            <p class="read-more-wrap">
+                Travel Day: Making Our Way to San Pedro Sula. Hola! I am currently writing my first entry from San Pedro
+                Sula, Honduras.
+                Spoiler alert: we made it all in one piece (friends and families please rest easy tonight). Our first
+                day began meeting
+                in the PIT airport at 4:30a EST.<span class="read-more-target">
+                Most of us running on only a few hours of sleep and a few more cups of coffee in our systems,
+                our incredible party of 13 began our journey to help others, as well, as ourselves in our search for something more. Whether
+                that search be for medicine/medical attention, love, hope, or possibly to learn a skill that could help produce a beneficial
+                outcome for their household, our team has prayed that whatever reason brings these children of God into our lives this
+                week that we can portray Christ through all that we do. The trip to Honduras was very entertaining to say the least. If
+                you had asked me at 3am EST this morning if I would stay up the majority of the flight, I would have said “No bueno, mi
+                amigo!” Little did I know that our youngest (and most energetic) member of our crew would be my traveling buddy during
+                day 1. In this blog, we shall refer to her as Little Foot aka Big Cheese’s daughter. We had a great time traveling to Atlanta
+                for our layover, making up stories to pass the time as we made our way San Pedro Sula. Little Foot is a returning member
+                for this particular Missions Trip and kept talking about seeing her friend from last year, Luis. Luis has come up in conversation
+                several times in the past few months while prepping for this journey. He is basically our “go-to” guy for all things Honduran.
+                The man definitely lives up to all the hype. He met us in the airport, shortly after arriving, and gained my trust immediately
+                when one of our bags was flagged for something “suspicious”. My guess was all the balloons and/or crafts for our Bible
+                Study activities with the kids this week. Nevertheless, Luis was on top of this from square one and everything was handled
+                and back to normal within minutes. Having now reached our destination (trust me the 100% humidity is hard to miss walking
+                out of the airport doors) my eyes were immediately open to the culture change when we had to keep a watch on our bags until
+                they made their way from our hands to a helper who would then place them into our van. This was to avoid any runaway luggage
+                that would never return. Our agenda for the rest of Day 1 was to go over a few basic rules that were non-negotiable for
+                the week, grab some food from my now favorite fast food restaurant of all time (Power Chicken!!), attend our first Church
+                service of the trip, and finish the night off with a team dinner and breakdown. Unfortunately the Church service was cancelled
+                due to flooding from all the rain that had occurred during the day. Hopefully this will not hinder our plans for the upcoming
+                week since the forecast for the next several days is rain, rain, and more rain. All in all though Day 1 was a great success,
+                bringing our team closer together as a whole and closer to God as followers. We thank Him for this wonderful opportunity,
+                and are so blessed to be able to spend this next week putting Him above all.</span>
+            </p>
+            <label for="post-3" class="read-more-trigger"></label>
+        </aside>
+        <h5>Honduras Day 0 (Packing Day) - October 10, 2015</h5>
+        <aside class="entry">
+            <input type="checkbox" class="read-more-state" id="post-2"/>
+            <p class="read-more-wrap">
+                Packing Day! This morning the 2015 fall Honduras Team met one last time to pack all the supplies for
+                next week’s trip.
+                It is hard to believe we are only one week away from a trip we have all been preparing for the last few
+                months. This morning
+                we each brought a suitcase to fill full of supplies.<span class="read-more-target">
+                In each suitcase we packed donated medicine, donated clothes, hygiene
+                products, dictionaries, calculators, donated medicine, school supplies, bible study supplies, arts and crafts, toys, and
+                more donated medicine. Did I mention the donated medicine?! Our group is beyond thankful for all the donations and prayers
+                we have received in preparation for this trip. From clothes to medicine to helping fund each and every one of our trips;
+                our gratitude is immeasurable. Please continue to keep us in your thoughts and prayers as we continue to prepare physically,
+                emotionally and spiritually. So what is next? We will meet at the airport October 17th at 4:30 in the morning to begin
+                our adventure to San Pedro Sula. We will be there for a full week helping any way we can (don’t worry we will update this
+                blog at least once maybe twice a day to fill you in on all of our many adventures!) We are all experiencing many emotions
+                but the main theme is excitement. We have been well prepared by our leaders and are ready to put our hands to work.</span>
+            </p>
+            <label for="post-2" class="read-more-trigger"></label>
+        </aside>
+        <h5>Obsession? More Like a Passion - February 2, 2014</h5>
+        <aside class="entry">
+            <input type="checkbox" class="read-more-state" id="post-1"/>
+            <p class="read-more-wrap">
+                The realization that I have mild OCD has become very apparent to me these past 6 months.<span
+                    class="read-more-target">
+                  Maegan points it out sometimes, but
+                  I have always known that it twas there. I have this weird thing about keeping my electronics clean. I know that
+                  the reasoning behind this is that electronics fascinate me to the highest degree. There is just something about a clean screen
+                  on a brand new piece of hardware that has the latest and fastest software uploaded on it that makes me light up. The
+                  issue with this is that everything gets dim, dusty, and smudged after time and use. I am consciously trying to change my
+                  weird ways of keeping my laptop screen clean. The whole point of these awesome inventions is to serve us, not the other way
+                  around. I will keep my readers (1) posted on this issue, but rest easy people (1) I do not lose sleep over this weird little
+                  quirk of mine. “All things new and clean, have no story nor past within their journey” — Yours truly</span>
+            </p>
+            <label for="post-1" class="read-more-trigger"></label>
+        </aside>
         </section>
-      <section class="featured-img">
-        <div>
-          <img class="img-fluid" src="images/iterate_make_it_better.png" alt="iterate image">
-        </div>
-      </section>
-      <section class="row">
-        <div class="col">
-          <h4 id="col-title">Products:</h4>
-          <div>
-            <a href="dsg/dsg.html"><img class="card-img" src="images/dsgLogo.png" alt="Card image"></a>
-          </div>
-          <div>
-            <a href="http://www.lowandawaypittsburgh.com" target="_blank"><img class="card-img" src="images/la_icon.png" alt="Card image"></a>
-          </div>
-          <div>
-            <a href="rr/rr.html"><img class="card-img" src="images/rrLogo.png" alt="Card image"></a>
-          </div>
-          <div>
-            <a href="dk/dk.html"><img class="card-img" src="images/dkLogo.png" alt="Card image"></a>
-          </div>
-        </div>
-        <div class="col">
-          <h4 id="col-title">User Experiences:</h4>
-          <div>
-            <a href="htc/htc.html"><img class="card-img" src="images/HTC Logo.png" alt="Card image"></a>
-          </div>
-          <div>
-            <a href="marathon/marathon.html"><img class="card-img" src="images/pittMarathonLogo.jpg" alt="Card image"></a>
-          </div>
-          <div>
-            <a href="nhsinc/nhsinc.html"><img class="card-img" src="images/nhsincLogo.jpeg" alt="Card image"></a>
-          </div>
-          <div>
-            <a href="blog/blog.html"><img class="card-img" src="images/jamesbitmoji.png" alt="Card image"></a>
-          </div>
-        </div>
-      </section>
-      <aside class="page-top">
+    </div>
+    <aside class="page-top">
         <a href="#top">Up Up and AWAY!</a>
-      </aside>
-    </div> <!--end of body-container-->
-    <footer>
-        <i>
-          <a class="fab fa-github" href="https://github.com/jamesjdougherty" target="_blank" alt="James Dougherty's Github"></a>
-        </i>
-        <i>
-          <a class="fab fa-pinterest" href="https://www.pinterest.com/jamesjdougherty/" target="_blank" alt="James Dougherty's Pinterest"></a>
-        </i>
-        <i>
-          <a class="fab fa-medium" href="https://medium.com/@JamesJDougherty" target="_blank" alt="James Dougherty's blog"></a>
-        </i>
-        <i>
-          <a class="fab fa-instagram" href="https://www.instagram.com/jamesjdougherty/" target="_blank" alt="James Dougherty's Instagram"></a>
-        </i>
-        <i>
-          <a class="fab fa-twitter" href="https://twitter.com/jamesjdougherty/" target="_blank" alt="James Dougherty's Twitter"></a>
-        </i>
-        <i>
-          <a class="fab fa-linkedin" href="https://www.linkedin.com/in/james-dougherty-a091a442" target="_blank" alt="James Dougherty's LinkedIn"></a>
-        </i>
-      </footer>
-    <script src="js/jquery-3.2.1.slim.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script>
-      function myMenu() {
-          let x = document.getElementById("myLinks");
-          if (x.style.display === "inline-block") {
-              x.style.display = "none";
-          } else {
-              x.style.display = "inline-block";
-          }
-      }
-    </script>
-  </body>
+    </aside>
+</div> <!--end of body-container-->
+<footer>
+    <i>
+        <a class="fab fa-github" href="https://github.com/jamesjdougherty" target="_blank"
+           alt="James Dougherty's Github"></a>
+    </i>
+    <i>
+        <a class="fab fa-pinterest" href="https://www.pinterest.com/jamesjdougherty/" target="_blank"
+           alt="James Dougherty's Pinterest"></a>
+    </i>
+    <i>
+        <a class="fab fa-medium" href="https://medium.com/@JamesJDougherty" target="_blank"
+           alt="James Dougherty's Medium"></a>
+    </i>
+    <i>
+        <a class="fab fa-instagram" href="https://www.instagram.com/jamesjdougherty/" target="_blank"
+           alt="James Dougherty's Instagram"></a>
+    </i>
+    <i>
+        <a class="fab fa-twitter" href="https://twitter.com/jamesjdougherty/" target="_blank"
+           alt="James Dougherty's Twitter"></a>
+    </i>
+    <i>
+        <a class="fab fa-linkedin" href="https://www.linkedin.com/in/james-dougherty-a091a442" target="_blank"
+           alt="James Dougherty's LinkedIn"></a>
+    </i>
+</footer>
+<script src="js/jquery-3.2.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
 </html>
